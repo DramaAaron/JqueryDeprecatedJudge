@@ -1,0 +1,3343 @@
+[
+    {
+        "funName": ".add()",
+        "funComment": "Create a new jQuery object with elements added to the set of matched elements.",
+        "Tag": [
+            " Traversing Miscellaneous Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/add/",
+        "subNote": ""
+    },
+    {
+        "funName": ".addBack()",
+        "funComment": "Add the previous set of elements on the stack to the current set, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Miscellaneous Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/addBack/",
+        "subNote": ""
+    },
+    {
+        "funName": ".addClass()",
+        "funComment": "Adds the specified class(es) to each element in the set of matched elements.",
+        "Tag": [
+            " Attributes",
+            " Manipulation Class Attribute",
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/addClass/",
+        "subNote": ""
+    },
+    {
+        "funName": ".after()",
+        "funComment": "Insert content, specified by the parameter, after each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Outside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/after/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxComplete()",
+        "funComment": "Register a handler to be called when Ajax requests complete. This is an AjaxEvent.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxComplete/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxError()",
+        "funComment": "Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxError/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxSend()",
+        "funComment": "Attach a function to be executed before an Ajax request is sent. This is an Ajax Event.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxSend/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxStart()",
+        "funComment": "Register a handler to be called when the first Ajax request begins. This is an Ajax Event.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxStart/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxStop()",
+        "funComment": "Register a handler to be called when all Ajax requests have completed. This is an Ajax Event.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxStop/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ajaxSuccess()",
+        "funComment": "Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event.",
+        "Tag": [
+            " Ajax Global Ajax Event Handlers"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ajaxSuccess/",
+        "subNote": ""
+    },
+    {
+        "funName": "All Selector (\u201c*\u201d)",
+        "funComment": "Selects all elements.",
+        "Tag": [
+            " Selectors Basic"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/all-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".andSelf()",
+        "funComment": "Add the previous set of elements on the stack to the current set.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Traversing Miscellaneous Traversing",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/andSelf/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; use .addBack() instead, which should work identically."
+    },
+    {
+        "funName": ".animate()",
+        "funComment": "Perform a custom animation of a set of CSS properties.",
+        "Tag": [
+            " Effects Custom"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/animate/",
+        "subNote": "Note: Unlike shorthand animation methods such as .slideDown() and .fadeIn(), the .animate() method does not make hidden elements visible as part of the effect. For example, given $( \"someElement\" ).hide().animate({height: \"20px\"}, 500), the animation will run, but the element will remain hidden."
+    },
+    {
+        "funName": ":animated Selector",
+        "funComment": "Select all elements that are in the progress of an animation at the time the selector is run.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/animated-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".append()",
+        "funComment": "Insert content, specified by the parameter, to the end of each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/append/",
+        "subNote": ""
+    },
+    {
+        "funName": ".appendTo()",
+        "funComment": "Insert every element in the set of matched elements to the end of the target.",
+        "Tag": [
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/appendTo/",
+        "subNote": ""
+    },
+    {
+        "funName": ".attr()",
+        "funComment": "Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.",
+        "Tag": [
+            " Attributes",
+            " Manipulation General Attributes"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attr/",
+        "subNote": "Note: Attribute values are strings with the exception of a few attributes such as value and tabindex."
+    },
+    {
+        "funName": "Attribute Contains Prefix Selector [name|=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-contains-prefix-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Contains Selector [name*=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value containing a given substring.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-contains-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Contains Word Selector [name~=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value containing a given word, delimited by spaces.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-contains-word-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Ends With Selector [name$=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value ending exactly with a given string. The comparison is case sensitive.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-ends-with-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Equals Selector [name=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value exactly equal to a certain value.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-equals-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Not Equal Selector [name!=\u201dvalue\u201d]",
+        "funComment": "Select elements that either don\u2019t have the specified attribute, or do have the specified attribute but not with a certain value.",
+        "Tag": [
+            " Selectors Attribute",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-not-equal-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Attribute Starts With Selector [name^=\u201dvalue\u201d]",
+        "funComment": "Selects elements that have the specified attribute with a value beginning exactly with a given string.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/attribute-starts-with-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".before()",
+        "funComment": "Insert content, specified by the parameter, before each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Outside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/before/",
+        "subNote": ""
+    },
+    {
+        "funName": ".bind()",
+        "funComment": "Attach a handler to an event for the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/bind/",
+        "subNote": "Note that objects are passed to functions by reference, which further complicates this scenario."
+    },
+    {
+        "funName": ".blur()",
+        "funComment": "Bind an event handler to the \u201cblur\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/blur/",
+        "subNote": ""
+    },
+    {
+        "funName": ":button Selector",
+        "funComment": "Selects all button elements and elements of type button.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/button-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.add()",
+        "funComment": "Add a callback or a collection of callbacks to a callback list.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.add/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.disable()",
+        "funComment": "Disable a callback list from doing anything more.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.disable/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.disabled()",
+        "funComment": "Determine if the callbacks list has been disabled.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.disabled/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.empty()",
+        "funComment": "Remove all of the callbacks from a list.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.empty/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.fire()",
+        "funComment": "Call all of the callbacks with the given arguments.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.fire/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.fired()",
+        "funComment": "Determine if the callbacks have already been called at least once.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.fired/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.fireWith()",
+        "funComment": "Call all callbacks in a list with the given context and arguments.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.fireWith/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.has()",
+        "funComment": "Determine whether or not the list has any callbacks attached. If a callback is provided as an argument, determine whether it is in a list.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.has/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.lock()",
+        "funComment": "Lock a callback list in its current state.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.lock/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.locked()",
+        "funComment": "Determine if the callbacks list has been locked.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.locked/",
+        "subNote": ""
+    },
+    {
+        "funName": "callbacks.remove()",
+        "funComment": "Remove a callback or a collection of callbacks from a callback list.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/callbacks.remove/",
+        "subNote": ""
+    },
+    {
+        "funName": ".change()",
+        "funComment": "Bind an event handler to the \u201cchange\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/change/",
+        "subNote": "Note: Changing the value of an input element using JavaScript, using .val() for example, won't fire the event."
+    },
+    {
+        "funName": ":checkbox Selector",
+        "funComment": "Selects all elements of type checkbox.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/checkbox-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":checked Selector",
+        "funComment": "Matches all elements that are checked or selected.",
+        "Tag": [
+            " Selectors Form"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/checked-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Child Selector (\u201cparent > child\u201d)",
+        "funComment": "Selects all direct child elements specified by \u201cchild\u201d of elements specified by \u201cparent\u201d.",
+        "Tag": [
+            " Selectors Hierarchy"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".children()",
+        "funComment": "Get the children of each element in the set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/children/",
+        "subNote": ""
+    },
+    {
+        "funName": "Class Selector (\u201c.class\u201d)",
+        "funComment": "Selects all elements with the given class.",
+        "Tag": [
+            " Selectors Basic"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/class-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".clearQueue()",
+        "funComment": "Remove from the queue all items that have not yet been run.",
+        "Tag": [
+            " Effects Custom",
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/clearQueue/",
+        "subNote": ""
+    },
+    {
+        "funName": ".click()",
+        "funComment": "Bind an event handler to the \u201cclick\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/click/",
+        "subNote": ""
+    },
+    {
+        "funName": ".clone()",
+        "funComment": "Create a deep copy of the set of matched elements.",
+        "Tag": [
+            " Manipulation Copying"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/clone/",
+        "subNote": "Note: For performance reasons, the dynamic state of certain form elements (e.g., user data typed into textarea and user selections made to a select) is not copied to the cloned elements. When cloning input elements, the dynamic state of the element (e.g., user data typed into text inputs and user selections made to a checkbox) is retained in the cloned elements."
+    },
+    {
+        "funName": ".closest()",
+        "funComment": "For each element in the set, get the first element that matches the selector by testing the element itself and traversing up through its ancestors in the DOM tree.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/closest/",
+        "subNote": ""
+    },
+    {
+        "funName": ":contains() Selector",
+        "funComment": "Select all elements that contain the specified text.",
+        "Tag": [
+            " Selectors Content Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/contains-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".contents()",
+        "funComment": "Get the children of each element in the set of matched elements, including text and comment nodes.",
+        "Tag": [
+            " Traversing Miscellaneous Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/contents/",
+        "subNote": ""
+    },
+    {
+        "funName": ".context",
+        "funComment": "The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.",
+        "Tag": [
+            " Deprecated Deprecated 1.10",
+            " Internals",
+            " Properties Properties of jQuery Object Instances",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/context/",
+        "subNote": "Note: This API has been removed in jQuery 3.0."
+    },
+    {
+        "funName": ".contextmenu()",
+        "funComment": "Bind an event handler to the \u201ccontextmenu\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/contextmenu/",
+        "subNote": ""
+    },
+    {
+        "funName": ".css()",
+        "funComment": "Get the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.",
+        "Tag": [
+            " CSS",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/css/",
+        "subNote": ""
+    },
+    {
+        "funName": ".data()",
+        "funComment": "Store arbitrary data associated with the matched elements or return the value at the named data store for the first element in the set of matched elements.",
+        "Tag": [
+            " Data",
+            " Miscellaneous Data Storage"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/data/",
+        "subNote": ""
+    },
+    {
+        "funName": ".dblclick()",
+        "funComment": "Bind an event handler to the \u201cdblclick\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/dblclick/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.always()",
+        "funComment": "Add handlers to be called when the Deferred object is either resolved or rejected.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.always/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.catch()",
+        "funComment": "Add handlers to be called when the Deferred object is rejected.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.catch/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.done()",
+        "funComment": "Add handlers to be called when the Deferred object is resolved.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.done/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.fail()",
+        "funComment": "Add handlers to be called when the Deferred object is rejected.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.fail/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.isRejected()",
+        "funComment": "Determine whether a Deferred object has been rejected.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.isRejected/",
+        "subNote": "Note: This API has been removed in jQuery 1.8; please use deferred.state() instead."
+    },
+    {
+        "funName": "deferred.isResolved()",
+        "funComment": "Determine whether a Deferred object has been resolved.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.isResolved/",
+        "subNote": "Note: This API has been removed in jQuery 1.8; please use deferred.state() instead."
+    },
+    {
+        "funName": "deferred.notify()",
+        "funComment": "Call the progressCallbacks on a Deferred object with the given args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.notify/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.notifyWith()",
+        "funComment": "Call the progressCallbacks on a Deferred object with the given context and args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.notifyWith/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.pipe()",
+        "funComment": "Utility method to filter and/or chain Deferreds.",
+        "Tag": [
+            " Deferred Object",
+            " Deprecated Deprecated 1.8"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/deferred.pipe/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.progress()",
+        "funComment": "Add handlers to be called when the Deferred object generates progress notifications.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.progress/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.promise()",
+        "funComment": "Return a Deferred\u2019s Promise object.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.promise/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.reject()",
+        "funComment": "Reject a Deferred object and call any failCallbacks with the given args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.reject/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.rejectWith()",
+        "funComment": "Reject a Deferred object and call any failCallbacks with the given context and args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.rejectWith/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.resolve()",
+        "funComment": "Resolve a Deferred object and call any doneCallbacks with the given args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.resolve/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.resolveWith()",
+        "funComment": "Resolve a Deferred object and call any doneCallbacks with the given context and args.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.resolveWith/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.state()",
+        "funComment": "Determine the current state of a Deferred object.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.state/",
+        "subNote": ""
+    },
+    {
+        "funName": "deferred.then()",
+        "funComment": "Add handlers to be called when the Deferred object is resolved, rejected, or still in progress.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/deferred.then/",
+        "subNote": ""
+    },
+    {
+        "funName": ".delay()",
+        "funComment": "Set a timer to delay execution of subsequent items in the queue.",
+        "Tag": [
+            " Effects Custom"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/delay/",
+        "subNote": ""
+    },
+    {
+        "funName": ".delegate()",
+        "funComment": "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/delegate/",
+        "subNote": ""
+    },
+    {
+        "funName": ".dequeue()",
+        "funComment": "Execute the next function on the queue for the matched elements.",
+        "Tag": [
+            " Effects Custom",
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/dequeue/",
+        "subNote": ""
+    },
+    {
+        "funName": "Descendant Selector (\u201cancestor descendant\u201d)",
+        "funComment": "Selects all elements that are descendants of a given ancestor.",
+        "Tag": [
+            " Selectors Hierarchy"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/descendant-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".detach()",
+        "funComment": "Remove the set of matched elements from the DOM.",
+        "Tag": [
+            " Manipulation DOM Removal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/detach/",
+        "subNote": ""
+    },
+    {
+        "funName": ".die()",
+        "funComment": "Remove event handlers previously attached using .live() from the elements.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Events Event Handler Attachment",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/die/",
+        "subNote": "Note: This API has been removed in jQuery 1.9; please use on() instead."
+    },
+    {
+        "funName": ":disabled Selector",
+        "funComment": "Selects all elements that are disabled.",
+        "Tag": [
+            " Selectors Form"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/disabled-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".each()",
+        "funComment": "Iterate over a jQuery object, executing a function for each matched element.",
+        "Tag": [
+            " Miscellaneous Collection Manipulation",
+            " Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/each/",
+        "subNote": ""
+    },
+    {
+        "funName": "Element Selector (\u201celement\u201d)",
+        "funComment": "Selects all elements with the given tag name.",
+        "Tag": [
+            " Selectors Basic"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/element-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".empty()",
+        "funComment": "Remove all child nodes of the set of matched elements from the DOM.",
+        "Tag": [
+            " Manipulation DOM Removal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/empty/",
+        "subNote": ""
+    },
+    {
+        "funName": ":empty Selector",
+        "funComment": "Select all elements that have no children (including text nodes).",
+        "Tag": [
+            " Selectors Content Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/empty-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":enabled Selector",
+        "funComment": "Selects all elements that are enabled.",
+        "Tag": [
+            " Selectors Form"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/enabled-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".end()",
+        "funComment": "End the most recent filtering operation in the current chain and return the set of matched elements to its previous state.",
+        "Tag": [
+            " Traversing Miscellaneous Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/end/",
+        "subNote": ""
+    },
+    {
+        "funName": ".eq()",
+        "funComment": "Reduce the set of matched elements to the one at the specified index.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/eq/",
+        "subNote": ""
+    },
+    {
+        "funName": ":eq() Selector",
+        "funComment": "Select the element at index n within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/eq-selector/",
+        "subNote": "As of jQuery 3.4, the :eq pseudo-class is deprecated. Remove it from your selectors and filter the results later using .eq()."
+    },
+    {
+        "funName": ".error()",
+        "funComment": "Bind an event handler to the \u201cerror\u201d JavaScript event.",
+        "Tag": [
+            " Events Browser Events",
+            " Deprecated Deprecated 1.8",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/error/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"error\", handler ) instead of .error( handler ) and .trigger( \"error\" ) instead of .error()."
+    },
+    {
+        "funName": ".even()",
+        "funComment": "Reduce the set of matched elements to the even ones in the set, numbered from zero.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/even/",
+        "subNote": ""
+    },
+    {
+        "funName": ":even Selector",
+        "funComment": "Selects even elements, zero-indexed.  See also :odd.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/even-selector/",
+        "subNote": "As of jQuery 3.4, the :even pseudo-class is deprecated. Remove it from your selectors and filter the results later using .even() (available in jQuery 3.5.0 or newer)."
+    },
+    {
+        "funName": "event.currentTarget",
+        "funComment": "The current DOM element within the event bubbling phase.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.currentTarget/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.data",
+        "funComment": "An optional object of data passed to an event method when the current executing handler is bound.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.data/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.delegateTarget",
+        "funComment": "The element where the currently-called jQuery event handler was attached.",
+        "Tag": [
+            " Events Event Object",
+            " Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.delegateTarget/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.isDefaultPrevented()",
+        "funComment": "Returns whether event.preventDefault() was ever called on this event object.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.isDefaultPrevented/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.isImmediatePropagationStopped()",
+        "funComment": "Returns whether event.stopImmediatePropagation() was ever called on this event object.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.isImmediatePropagationStopped/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.isPropagationStopped()",
+        "funComment": "Returns whether event.stopPropagation() was ever called on this event object.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.isPropagationStopped/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.metaKey",
+        "funComment": "Indicates whether the META key was pressed when the event fired.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.metaKey/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.namespace",
+        "funComment": "The namespace specified when the event was triggered.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.namespace/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.pageX",
+        "funComment": "The mouse position relative to the left edge of the document.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.pageX/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.pageY",
+        "funComment": "The mouse position relative to the top edge of the document.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.pageY/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.preventDefault()",
+        "funComment": "If this method is called, the default action of the event will not be triggered.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.preventDefault/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.relatedTarget",
+        "funComment": "The other DOM element involved in the event, if any.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.relatedTarget/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.result",
+        "funComment": "The last value returned by an event handler that was triggered by this event, unless the value was undefined.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.result/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.stopImmediatePropagation()",
+        "funComment": "Keeps the rest of the handlers from being executed and prevents the event from bubbling up the DOM tree.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.stopImmediatePropagation/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.stopPropagation()",
+        "funComment": "Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.stopPropagation/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.target",
+        "funComment": "The DOM element that initiated the event.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.target/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.timeStamp",
+        "funComment": "The difference in milliseconds between the time the browser created the event and January 1, 1970.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.timeStamp/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.type",
+        "funComment": "Describes the nature of the event.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.type/",
+        "subNote": ""
+    },
+    {
+        "funName": "event.which",
+        "funComment": "For key or mouse events, this property indicates the specific key or button that was pressed.",
+        "Tag": [
+            " Events Event Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/event.which/",
+        "subNote": ""
+    },
+    {
+        "funName": ".fadeIn()",
+        "funComment": "Display the matched elements by fading them to opaque.",
+        "Tag": [
+            " Effects Fading"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/fadeIn/",
+        "subNote": ""
+    },
+    {
+        "funName": ".fadeOut()",
+        "funComment": "Hide the matched elements by fading them to transparent.",
+        "Tag": [
+            " Effects Fading"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/fadeOut/",
+        "subNote": "Note: To avoid unnecessary DOM manipulation, .fadeOut() will not hide an element that is already considered hidden. For information on which elements jQuery considers hidden, see  :hidden Selector."
+    },
+    {
+        "funName": ".fadeTo()",
+        "funComment": "Adjust the opacity of the matched elements.",
+        "Tag": [
+            " Effects Fading"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/fadeTo/",
+        "subNote": ""
+    },
+    {
+        "funName": ".fadeToggle()",
+        "funComment": "Display or hide the matched elements by animating their opacity.",
+        "Tag": [
+            " Effects",
+            " Effects Fading"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/fadeToggle/",
+        "subNote": ""
+    },
+    {
+        "funName": ":file Selector",
+        "funComment": "Selects all elements of type file.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/file-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".filter()",
+        "funComment": "Reduce the set of matched elements to those that match the selector or pass the function\u2019s test.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/filter/",
+        "subNote": ""
+    },
+    {
+        "funName": ".find()",
+        "funComment": "Get the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/find/",
+        "subNote": "Unlike most of the tree traversal methods, the selector expression is required in a call to .find(). If we need to retrieve all of the descendant elements, we can pass in the universal selector '*' to accomplish this."
+    },
+    {
+        "funName": ".finish()",
+        "funComment": "Stop the currently-running animation, remove all queued animations, and complete all animations for the matched elements.",
+        "Tag": [
+            " Effects Custom"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/finish/",
+        "subNote": "Animations may be stopped globally by setting the property $.fx.off to true. When this is done, all animation methods will immediately set elements to their final state when called, rather than displaying an effect."
+    },
+    {
+        "funName": ".first()",
+        "funComment": "Reduce the set of matched elements to the first in the set.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/first/",
+        "subNote": ""
+    },
+    {
+        "funName": ":first-child Selector",
+        "funComment": "Selects all elements that are the first child of their parent.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/first-child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":first-of-type Selector",
+        "funComment": "Selects all elements that are the first among siblings of the same element name.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/first-of-type-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":first Selector",
+        "funComment": "Selects the first matched DOM element.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/first-selector/",
+        "subNote": "As of jQuery 3.4, the :first pseudo-class is deprecated. Remove it from your selectors and filter the results later using .first()."
+    },
+    {
+        "funName": ".focus()",
+        "funComment": "Bind an event handler to the \u201cfocus\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/focus/",
+        "subNote": "Attempting to set focus to a hidden element causes an error in Internet Explorer. Take care to only use .focus() on elements that are visible. To run an element's focus event handlers without setting focus to the element, use .triggerHandler( \"focus\" ) instead of .focus()."
+    },
+    {
+        "funName": ":focus Selector",
+        "funComment": "Selects element if it is currently focused.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Selectors Form"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/focus-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".focusin()",
+        "funComment": "Bind an event handler to the \u201cfocusin\u201d event.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/focusin/",
+        "subNote": ""
+    },
+    {
+        "funName": ".focusout()",
+        "funComment": "Bind an event handler to the \u201cfocusout\u201d JavaScript event.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/focusout/",
+        "subNote": ""
+    },
+    {
+        "funName": ".get()",
+        "funComment": "Retrieve the DOM elements matched by the jQuery object.",
+        "Tag": [
+            " Miscellaneous DOM Element Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/get/",
+        "subNote": ""
+    },
+    {
+        "funName": ":gt() Selector",
+        "funComment": "Select all elements at an index greater than index within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/gt-selector/",
+        "subNote": "As of jQuery 3.4, the :gt pseudo-class is deprecated. Remove it from your selectors and filter the results later using .slice(). For example, :gt(3) can be replaced with a call to .slice( 4 ) (the provided index needs to be increased by one)."
+    },
+    {
+        "funName": ".has()",
+        "funComment": "Reduce the set of matched elements to those that have a descendant that matches the selector or DOM element.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/has/",
+        "subNote": ""
+    },
+    {
+        "funName": "Has Attribute Selector [name]",
+        "funComment": "Selects elements that have the specified attribute, with any value.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/has-attribute-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":has() Selector",
+        "funComment": "Selects elements which contain at least one element that matches the specified selector.",
+        "Tag": [
+            " Selectors Content Filter",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/has-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".hasClass()",
+        "funComment": "Determine whether any of the matched elements are assigned the given class.",
+        "Tag": [
+            " Attributes",
+            " Manipulation Class Attribute",
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/hasClass/",
+        "subNote": ""
+    },
+    {
+        "funName": ":header Selector",
+        "funComment": "Selects all elements that are headers, like h1, h2, h3 and so on.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/header-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".height()",
+        "funComment": "Get the current computed height for the first element in the set of matched elements or set the height of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/height/",
+        "subNote": "Note: Although style and script tags will report a value for .width() or height() when absolutely positioned and given display:block, it is strongly discouraged to call those methods on these tags. In addition to being a bad practice, the results may also prove unreliable."
+    },
+    {
+        "funName": ":hidden Selector",
+        "funComment": "Selects all elements that are hidden.",
+        "Tag": [
+            " Selectors jQuery Extensions",
+            " Selectors Visibility Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/hidden-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".hide()",
+        "funComment": "Hide the matched elements.",
+        "Tag": [
+            " Effects Basics"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/hide/",
+        "subNote": "Note: This method may cause performance issues, especially when used on many elements. If you're encountering such issues, use performance testing tools to determine whether this method is causing them. Moreover, this method can cause problems with responsive layouts if the display value differs at different viewport sizes."
+    },
+    {
+        "funName": ".hover()",
+        "funComment": "Bind one or two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/hover/",
+        "subNote": ""
+    },
+    {
+        "funName": ".html()",
+        "funComment": "Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.",
+        "Tag": [
+            " Attributes",
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/html/",
+        "subNote": ""
+    },
+    {
+        "funName": "ID Selector (\u201c#id\u201d)",
+        "funComment": "Selects a single element with the given id attribute.",
+        "Tag": [
+            " Selectors Basic"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/id-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":image Selector",
+        "funComment": "Selects all elements of type image.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/image-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".index()",
+        "funComment": "Search for a given element from among the matched elements.",
+        "Tag": [
+            " Miscellaneous DOM Element Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/index/",
+        "subNote": ""
+    },
+    {
+        "funName": ".innerHeight()",
+        "funComment": "Get the current computed inner height (including padding but not border) for the first element in the set of matched elements or set the inner height of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/innerHeight/",
+        "subNote": ""
+    },
+    {
+        "funName": ".innerWidth()",
+        "funComment": "Get the current computed inner width (including padding but not border) for the first element in the set of matched elements or set the inner width of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/innerWidth/",
+        "subNote": ""
+    },
+    {
+        "funName": ":input Selector",
+        "funComment": "Selects all input, textarea, select and button elements.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/input-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".insertAfter()",
+        "funComment": "Insert every element in the set of matched elements after the target.",
+        "Tag": [
+            " Manipulation DOM Insertion, Outside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/insertAfter/",
+        "subNote": ""
+    },
+    {
+        "funName": ".insertBefore()",
+        "funComment": "Insert every element in the set of matched elements before the target.",
+        "Tag": [
+            " Manipulation DOM Insertion, Outside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/insertBefore/",
+        "subNote": ""
+    },
+    {
+        "funName": ".is()",
+        "funComment": "Check the current matched set of elements against a selector, element, or jQuery object and return true if at least one of these elements matches the given arguments.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/is/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery()",
+        "funComment": "Return a collection of matched elements either found in the DOM based on passed argument(s) or created by passing an HTML string.",
+        "Tag": [
+            " Core"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery/",
+        "subNote": ""
+    },
+    {
+        "funName": ".jquery",
+        "funComment": "A string containing the jQuery version number.",
+        "Tag": [
+            " Internals",
+            " Properties Properties of jQuery Object Instances"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jquery-2/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.ajax()",
+        "funComment": "Perform an asynchronous HTTP (Ajax) request.",
+        "Tag": [
+            " Ajax Low-Level Interface"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.ajax/",
+        "subNote": "Deprecation Notice: The jqXHR.success(), jqXHR.error(), and jqXHR.complete() callbacks are removed as of jQuery 3.0. You can use jqXHR.done(), jqXHR.fail(), and jqXHR.always() instead."
+    },
+    {
+        "funName": "jQuery.ajaxPrefilter()",
+        "funComment": "Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax().",
+        "Tag": [
+            " Ajax Low-Level Interface"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.ajaxPrefilter/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.ajaxSetup()",
+        "funComment": "Set default values for future Ajax requests. Its use is not recommended.",
+        "Tag": [
+            " Ajax Low-Level Interface"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.ajaxSetup/",
+        "subNote": "Note: Global callback functions should be set with their respective global Ajax event handler methods\u2014.ajaxStart(), .ajaxStop(), .ajaxComplete(), .ajaxError(), .ajaxSuccess(), .ajaxSend()\u2014rather than within the options object for $.ajaxSetup()."
+    },
+    {
+        "funName": "jQuery.ajaxTransport()",
+        "funComment": "Creates an object that handles the actual transmission of Ajax data.",
+        "Tag": [
+            " Ajax Low-Level Interface"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.ajaxTransport/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.boxModel",
+        "funComment": "States if the current page, in the user\u2019s browser, is being rendered using the W3C CSS Box Model.",
+        "Tag": [
+            " Deprecated Deprecated 1.3",
+            " Removed",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.boxModel/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; check if .document.compatMode is equal to \"CSS1Compat\" instead. Or, even better - always specify a DOCTYPE and avoid using quirks mode which jQuery doesn't support."
+    },
+    {
+        "funName": "jQuery.browser",
+        "funComment": "Contains flags for the useragent, read from navigator.userAgent. This property was removed in jQuery 1.9 and is available only through the jQuery.migrate plugin. Please try to use feature detection instead.",
+        "Tag": [
+            " Deprecated Deprecated 1.3",
+            " Properties Properties of the Global jQuery Object",
+            " Removed",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.browser/",
+        "subNote": "Note: This API has been removed in jQuery 1.9; please rely on feature detection instead."
+    },
+    {
+        "funName": "jQuery.Callbacks()",
+        "funComment": "A multi-purpose callbacks list object that provides a powerful way to manage callback lists.",
+        "Tag": [
+            " Callbacks Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.Callbacks/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.contains()",
+        "funComment": "Check to see if a DOM element is a descendant of another DOM element.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.contains/",
+        "subNote": "Note: The first argument must be a DOM element, not a jQuery object or plain JavaScript object."
+    },
+    {
+        "funName": "jQuery.cssHooks",
+        "funComment": "Hook directly into jQuery to override how particular CSS properties are retrieved or set, normalize CSS property naming, or create custom properties.",
+        "Tag": [
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.cssHooks/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.cssNumber",
+        "funComment": "An object containing all CSS properties that may be used without a unit. The .css() method uses this object to see if it may append px to unitless values.",
+        "Tag": [
+            " CSS",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.cssNumber/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.data()",
+        "funComment": "Store arbitrary data associated with the specified element and/or return the value that was set.",
+        "Tag": [
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.data/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.Deferred()",
+        "funComment": "A factory function that returns a chainable utility object with methods to register multiple callbacks into callback queues, invoke callback queues, and relay the success or failure state of any synchronous or asynchronous function.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.Deferred/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.dequeue()",
+        "funComment": "Execute the next function on the queue for the matched element.",
+        "Tag": [
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.dequeue/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.each()",
+        "funComment": "A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function\u2019s arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.each/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.error()",
+        "funComment": "Takes a string and throws an exception containing it.",
+        "Tag": [
+            " Internals"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.error/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.escapeSelector()",
+        "funComment": "Escapes any character that has a special meaning in a CSS selector.",
+        "Tag": [
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.escapeSelector/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.extend()",
+        "funComment": "Merge the contents of two or more objects together into the first object.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.extend/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.fn.extend()",
+        "funComment": "Merge the contents of an object onto the jQuery prototype to provide new jQuery instance methods.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.fn.extend/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.fx.interval",
+        "funComment": "The rate (in milliseconds) at which animations fire.",
+        "Tag": [
+            " Effects Custom",
+            " Deprecated Deprecated 3.0",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.fx.interval/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.fx.off",
+        "funComment": "Globally disable all animations.",
+        "Tag": [
+            " Effects Custom",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.fx.off/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.get()",
+        "funComment": "Load data from the server using a HTTP GET request.",
+        "Tag": [
+            " Ajax Shorthand Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.get/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.getJSON()",
+        "funComment": "Load JSON-encoded data from the server using a GET HTTP request.",
+        "Tag": [
+            " Ajax Shorthand Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.getJSON/",
+        "subNote": "Important: As of jQuery 1.4, if the JSON file contains a syntax error, the request will usually fail silently. Avoid frequent hand-editing of JSON data for this reason. JSON is a data-interchange format with syntax rules that are stricter than those of JavaScript's object literal notation. For example, all strings represented in JSON, whether they are properties or values, must be enclosed in double-quotes. For details on the JSON format, see https://json.org/."
+    },
+    {
+        "funName": "jQuery.getScript()",
+        "funComment": "Load a JavaScript file from the server using a GET HTTP request, then execute it.",
+        "Tag": [
+            " Ajax Shorthand Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.getScript/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.globalEval()",
+        "funComment": "Execute some JavaScript code globally.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.globalEval/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.grep()",
+        "funComment": "Finds the elements of an array which satisfy a filter function. The original array is not affected.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.grep/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.hasData()",
+        "funComment": "Determine whether an element has any jQuery data associated with it.",
+        "Tag": [
+            " Data"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.hasData/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.holdReady()",
+        "funComment": "Holds or releases the execution of jQuery\u2019s ready event.",
+        "Tag": [
+            " Core",
+            " Deprecated Deprecated 3.2",
+            " Events Document Loading",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.holdReady/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.2. Instead of relying on this global switch, it's better to put explicitly wait for required code. If you need to wait both for the ready state & for a custom promise, use the following pattern:"
+    },
+    {
+        "funName": "jQuery.htmlPrefilter()",
+        "funComment": "Modify and filter HTML strings passed through jQuery manipulation methods.",
+        "Tag": [
+            " Manipulation"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.htmlPrefilter/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.inArray()",
+        "funComment": "Search for a specified value within an array and return its index (or -1 if not found).",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.inArray/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.isArray()",
+        "funComment": "Determine whether the argument is an array.",
+        "Tag": [
+            " Deprecated Deprecated 3.2",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isArray/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.2; please use the native Array.isArray method instead."
+    },
+    {
+        "funName": "jQuery.isEmptyObject()",
+        "funComment": "Check to see if an object is empty (contains no enumerable properties).",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.isEmptyObject/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.isFunction()",
+        "funComment": "Determines if its argument is callable as a function.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isFunction/",
+        "subNote": "As of jQuery 3.3, jQuery.isFunction() has been deprecated. In most cases, its use can be replaced by typeof x === \"function\"."
+    },
+    {
+        "funName": "jQuery.isNumeric()",
+        "funComment": "Determines whether its argument represents a JavaScript number.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isNumeric/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3."
+    },
+    {
+        "funName": "jQuery.isPlainObject()",
+        "funComment": "Check to see if an object is a plain object (created using \u201c{}\u201d or \u201cnew Object\u201d).",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.isPlainObject/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.isWindow()",
+        "funComment": "Determine whether the argument is a window.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.isWindow/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; if you need this function, reimplement it by yourself:"
+    },
+    {
+        "funName": "jQuery.isXMLDoc()",
+        "funComment": "Check to see if a DOM node is within an XML document (or is an XML document).",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.isXMLDoc/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.makeArray()",
+        "funComment": "Convert an array-like object into a true JavaScript array.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.makeArray/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.map()",
+        "funComment": "Translate all items in an array or object to new array of items.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.map/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.merge()",
+        "funComment": "Merge the contents of two arrays together into the first array.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.merge/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.noConflict()",
+        "funComment": "Relinquish jQuery\u2019s control of the $ variable.",
+        "Tag": [
+            " Core",
+            " Miscellaneous Setup Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.noConflict/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.noop()",
+        "funComment": "An empty function.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.noop/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.now()",
+        "funComment": "Return a number representing the current time.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.now/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; please use the native Date.now() method instead."
+    },
+    {
+        "funName": "jQuery.param()",
+        "funComment": "Create a serialized representation of an array, a plain object, or a jQuery object suitable for use in a URL query string or Ajax request. In case a jQuery object is passed, it should contain input elements with name/value properties.",
+        "Tag": [
+            " Miscellaneous Collection Manipulation",
+            " Forms",
+            " Ajax Helper Functions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.param/",
+        "subNote": "Note: Because some frameworks have limited ability to parse serialized arrays, developers should exercise caution when passing an obj argument that contains objects or arrays nested within another array."
+    },
+    {
+        "funName": "jQuery.parseHTML()",
+        "funComment": "Parses a string into an array of DOM nodes.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.parseHTML/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.parseJSON()",
+        "funComment": "Takes a well-formed JSON string and returns the resulting JavaScript value.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.parseJSON/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.parseXML()",
+        "funComment": "Parses a string into an XML document.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.parseXML/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.post()",
+        "funComment": "Send data to the server using a HTTP POST request.",
+        "Tag": [
+            " Ajax Shorthand Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.post/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.proxy()",
+        "funComment": "Takes a function and returns a new one that will always have a particular context.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Events Event Handler Attachment",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.proxy/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3; please use the native Function.prototype.bind method instead."
+    },
+    {
+        "funName": "jQuery.queue()",
+        "funComment": "Show or manipulate the queue of functions to be executed on the matched element.",
+        "Tag": [
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.queue/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.ready",
+        "funComment": "A Promise-like object (or \u201cthenable\u201d) that resolves when the document is ready.",
+        "Tag": [
+            " Core",
+            " Events Document Loading",
+            " Properties Properties of the Global jQuery Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.ready/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.readyException()",
+        "funComment": "Handles errors thrown synchronously in functions wrapped in jQuery().",
+        "Tag": [
+            " Core"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.readyException/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.removeData()",
+        "funComment": "Remove a previously-stored piece of data.",
+        "Tag": [
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.removeData/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.speed",
+        "funComment": "Creates an object containing a set of properties ready to be used in the definition of custom animations.",
+        "Tag": [
+            " Effects Custom"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.speed/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.sub()",
+        "funComment": "Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.",
+        "Tag": [
+            " Core",
+            " Deprecated Deprecated 1.7",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.sub/",
+        "subNote": "Note: This API has been removed in jQuery 1.9."
+    },
+    {
+        "funName": "jQuery.support",
+        "funComment": "A collection of properties that represent the presence of different browser features or bugs. Intended for jQuery\u2019s internal use; specific properties may be removed when they are no longer needed internally to improve page startup performance. For your own project\u2019s feature-detection needs, we strongly recommend the use of an external library such as Modernizr instead of dependency on properties in jQuery.support.",
+        "Tag": [
+            " Deprecated Deprecated 1.9",
+            " Properties Properties of the Global jQuery Object",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.support/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.trim()",
+        "funComment": "Remove the whitespace from the beginning and end of a string.",
+        "Tag": [
+            " Deprecated Deprecated 3.5",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.trim/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.5; please use the native String.prototype.trim method instead. Unlike jQuery.trim, String.prototype.trim does not work with types other than strings (null, undefined, Number). Make sure that your code is compatible when migrating."
+    },
+    {
+        "funName": "jQuery.type()",
+        "funComment": "Determine the internal JavaScript [[Class]] of an object.",
+        "Tag": [
+            " Deprecated Deprecated 3.3",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.type/",
+        "subNote": "Note: This API has been deprecated in jQuery 3.3."
+    },
+    {
+        "funName": "jQuery.unique()",
+        "funComment": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Utilities"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/jQuery.unique/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.uniqueSort()",
+        "funComment": "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers.",
+        "Tag": [
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.uniqueSort/",
+        "subNote": ""
+    },
+    {
+        "funName": "jQuery.when()",
+        "funComment": "Provides a way to execute callback functions based on zero or more Thenable objects, usually Deferred objects that represent asynchronous events.",
+        "Tag": [
+            " Core",
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/jQuery.when/",
+        "subNote": ""
+    },
+    {
+        "funName": ".keydown()",
+        "funComment": "Bind an event handler to the \u201ckeydown\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Keyboard Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/keydown/",
+        "subNote": ""
+    },
+    {
+        "funName": ".keypress()",
+        "funComment": "Bind an event handler to the \u201ckeypress\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Keyboard Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/keypress/",
+        "subNote": ""
+    },
+    {
+        "funName": ".keyup()",
+        "funComment": "Bind an event handler to the \u201ckeyup\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Keyboard Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/keyup/",
+        "subNote": ""
+    },
+    {
+        "funName": ":lang() Selector",
+        "funComment": "Selects all elements of the specified language.",
+        "Tag": [
+            " Selectors Basic Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/lang-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".last()",
+        "funComment": "Reduce the set of matched elements to the final one in the set.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/last/",
+        "subNote": ""
+    },
+    {
+        "funName": ":last-child Selector",
+        "funComment": "Selects all elements that are the last child of their parent.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/last-child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":last-of-type Selector",
+        "funComment": "Selects all elements that are the last among siblings of the same element name.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/last-of-type-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":last Selector",
+        "funComment": "Selects the last matched element.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/last-selector/",
+        "subNote": "As of jQuery 3.4, the :last pseudo-class is deprecated. Remove it from your selectors and filter the results later using .last()."
+    },
+    {
+        "funName": ".length",
+        "funComment": "The number of elements in the jQuery object.",
+        "Tag": [
+            " Properties Properties of jQuery Object Instances"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/length/",
+        "subNote": ""
+    },
+    {
+        "funName": ".live()",
+        "funComment": "Attach an event handler for all elements which match the current selector, now and in the future.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Events Event Handler Attachment",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/live/",
+        "subNote": "Note: This API has been removed in jQuery 1.9; please use on() instead."
+    },
+    {
+        "funName": ".load()",
+        "funComment": "Load data from the server and place the returned HTML into the matched elements.",
+        "Tag": [
+            " Ajax Shorthand Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/load/",
+        "subNote": "Note: Prior to jQuery 3.0, the event handling suite also had a method named .load(). Older versions of jQuery determined which method to fire based on the set of arguments passed to it."
+    },
+    {
+        "funName": ".load()",
+        "funComment": "Bind an event handler to the \u201cload\u201d JavaScript event.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Document Loading",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/load-event/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"load\", handler ) instead of .load( handler ) and .trigger( \"load\" ) instead of .load()."
+    },
+    {
+        "funName": ":lt() Selector",
+        "funComment": "Select all elements at an index less than index within the matched set.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/lt-selector/",
+        "subNote": "As of jQuery 3.4, the :lt pseudo-class is deprecated. Remove it from your selectors and filter the results later using .slice(). For example, :lt(3) can be replaced with a call to .slice( 0, 3 )."
+    },
+    {
+        "funName": ".map()",
+        "funComment": "Pass each element in the current matched set through a function, producing a new jQuery object containing the return values.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/map/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mousedown()",
+        "funComment": "Bind an event handler to the \u201cmousedown\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mousedown/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mouseenter()",
+        "funComment": "Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mouseenter/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mouseleave()",
+        "funComment": "Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mouseleave/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mousemove()",
+        "funComment": "Bind an event handler to the \u201cmousemove\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mousemove/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mouseout()",
+        "funComment": "Bind an event handler to the \u201cmouseout\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mouseout/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mouseover()",
+        "funComment": "Bind an event handler to the \u201cmouseover\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mouseover/",
+        "subNote": ""
+    },
+    {
+        "funName": ".mouseup()",
+        "funComment": "Bind an event handler to the \u201cmouseup\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Mouse Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/mouseup/",
+        "subNote": ""
+    },
+    {
+        "funName": "Multiple Attribute Selector [name=\u201dvalue\u201d][name2=\u201dvalue2\u2033]",
+        "funComment": "Matches elements that match all of the specified attribute filters.",
+        "Tag": [
+            " Selectors Attribute"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/multiple-attribute-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Multiple Selector (\u201cselector1, selector2, selectorN\u201d)",
+        "funComment": "Selects the combined results of all the specified selectors.",
+        "Tag": [
+            " Selectors Basic"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/multiple-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".next()",
+        "funComment": "Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/next/",
+        "subNote": ""
+    },
+    {
+        "funName": "Next Adjacent Selector (\u201cprev + next\u201d)",
+        "funComment": "Selects all next elements matching \u201cnext\u201d that are immediately preceded by a sibling \u201cprev\u201d.",
+        "Tag": [
+            " Selectors Hierarchy"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/next-adjacent-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": "Next Siblings Selector (\u201cprev ~ siblings\u201d)",
+        "funComment": "Selects all sibling elements that follow after the \u201cprev\u201d element, have the same parent, and match the filtering \u201csiblings\u201d selector.",
+        "Tag": [
+            " Selectors Hierarchy"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/next-siblings-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".nextAll()",
+        "funComment": "Get all following siblings of each element in the set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nextAll/",
+        "subNote": ""
+    },
+    {
+        "funName": ".nextUntil()",
+        "funComment": "Get all following siblings of each element up to but not including the element matched by the selector, DOM node, or jQuery object passed.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nextUntil/",
+        "subNote": ""
+    },
+    {
+        "funName": ".not()",
+        "funComment": "Remove elements from the set of matched elements.",
+        "Tag": [
+            " Traversing Filtering",
+            " Traversing Miscellaneous Traversing"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/not/",
+        "subNote": ""
+    },
+    {
+        "funName": ":not() Selector",
+        "funComment": "Selects all elements that do not match the given selector.",
+        "Tag": [
+            " Selectors Basic Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/not-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":nth-child() Selector",
+        "funComment": "Selects all elements that are the nth-child of their parent.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nth-child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":nth-last-child() Selector",
+        "funComment": "Selects all elements that are the nth-child of their parent, counting from the last element to the first.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nth-last-child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":nth-last-of-type() Selector",
+        "funComment": "Selects all the elements that are the nth-child of their parent in relation to siblings with the same element name, counting from the last element to the first.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nth-last-of-type-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":nth-of-type() Selector",
+        "funComment": "Selects all elements that are the nth child of their parent in relation to siblings with the same element name.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/nth-of-type-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".odd()",
+        "funComment": "Reduce the set of matched elements to the odd ones in the set, numbered from zero.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/odd/",
+        "subNote": ""
+    },
+    {
+        "funName": ":odd Selector",
+        "funComment": "Selects odd elements, zero-indexed.  See also :even.",
+        "Tag": [
+            " Selectors Basic Filter",
+            " Deprecated Deprecated 3.4",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/odd-selector/",
+        "subNote": "As of jQuery 3.4, the :odd pseudo-class is deprecated. Remove it from your selectors and filter the results later using .odd() (available in jQuery 3.5.0 or newer)."
+    },
+    {
+        "funName": ".off()",
+        "funComment": "Remove an event handler.",
+        "Tag": [
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/off/",
+        "subNote": ""
+    },
+    {
+        "funName": ".offset()",
+        "funComment": "Get the current coordinates of the first element, or set the coordinates of every element, in the set of matched elements, relative to the document.",
+        "Tag": [
+            " CSS",
+            " Offset",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/offset/",
+        "subNote": "Note: jQuery does not support getting the offset coordinates of hidden elements or accounting for margins set on the <html> document element."
+    },
+    {
+        "funName": ".offsetParent()",
+        "funComment": "Get the closest ancestor element that is positioned.",
+        "Tag": [
+            " Offset",
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/offsetParent/",
+        "subNote": ""
+    },
+    {
+        "funName": ".on()",
+        "funComment": "Attach an event handler function for one or more events to the selected elements.",
+        "Tag": [
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/on/",
+        "subNote": ""
+    },
+    {
+        "funName": ".one()",
+        "funComment": "Attach a handler to an event for the elements. The handler is executed at most once per element per event type.",
+        "Tag": [
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/one/",
+        "subNote": ""
+    },
+    {
+        "funName": ":only-child Selector",
+        "funComment": "Selects all elements that are the only child of their parent.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/only-child-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":only-of-type Selector",
+        "funComment": "Selects all elements that have no siblings with the same element name.",
+        "Tag": [
+            " Selectors Child Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/only-of-type-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".outerHeight()",
+        "funComment": "Get the current computed outer height (including padding, border, and optionally margin) for the first element in the set of matched elements or set the outer height of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/outerHeight/",
+        "subNote": ""
+    },
+    {
+        "funName": ".outerWidth()",
+        "funComment": "Get the current computed outer width (including padding, border, and optionally margin) for the first element in the set of matched elements or set the outer width of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/outerWidth/",
+        "subNote": ""
+    },
+    {
+        "funName": ".parent()",
+        "funComment": "Get the parent of each element in the current set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/parent/",
+        "subNote": ""
+    },
+    {
+        "funName": ":parent Selector",
+        "funComment": "Select all elements that have at least one child node (either an element or text).",
+        "Tag": [
+            " Selectors Content Filter",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/parent-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".parents()",
+        "funComment": "Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/parents/",
+        "subNote": ""
+    },
+    {
+        "funName": ".parentsUntil()",
+        "funComment": "Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector, DOM node, or jQuery object.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/parentsUntil/",
+        "subNote": ""
+    },
+    {
+        "funName": ":password Selector",
+        "funComment": "Selects all elements of type password.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/password-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".position()",
+        "funComment": "Get the current coordinates of the first element in the set of matched elements, relative to the offset parent.",
+        "Tag": [
+            " CSS",
+            " Offset",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/position/",
+        "subNote": "Note: jQuery does not support getting the position coordinates of hidden elements or accounting for margins set on the <html> document element."
+    },
+    {
+        "funName": ".prepend()",
+        "funComment": "Insert content, specified by the parameter, to the beginning of each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prepend/",
+        "subNote": ""
+    },
+    {
+        "funName": ".prependTo()",
+        "funComment": "Insert every element in the set of matched elements to the beginning of the target.",
+        "Tag": [
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prependTo/",
+        "subNote": ""
+    },
+    {
+        "funName": ".prev()",
+        "funComment": "Get the immediately preceding sibling of each element in the set of matched elements. If a selector is provided, it retrieves the previous sibling only if it matches that selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prev/",
+        "subNote": ""
+    },
+    {
+        "funName": ".prevAll()",
+        "funComment": "Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prevAll/",
+        "subNote": ""
+    },
+    {
+        "funName": ".prevUntil()",
+        "funComment": "Get all preceding siblings of each element up to but not including the element matched by the selector, DOM node, or jQuery object.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prevUntil/",
+        "subNote": ""
+    },
+    {
+        "funName": ".promise()",
+        "funComment": "Return a Promise object to observe when all actions of a certain type bound to the collection, queued or not, have finished.",
+        "Tag": [
+            " Deferred Object"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/promise/",
+        "subNote": "Note: The returned Promise is linked to a Deferred object stored on the .data() for an element. Since the.remove() method removes the element's data as well as the element itself, it will prevent any of the element's unresolved Promises from resolving. If it is necessary to remove an element from the DOM before its Promise is resolved, use .detach() instead and follow with .removeData() after resolution."
+    },
+    {
+        "funName": ".prop()",
+        "funComment": "Get the value of a property for the first element in the set of matched elements or set one or more properties for every matched element.",
+        "Tag": [
+            " Attributes",
+            " Manipulation General Attributes"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/prop/",
+        "subNote": "Note: Attempting to change the type property (or attribute) of an input element created via HTML or already in an HTML document will result in an error being thrown by Internet Explorer 6, 7, or 8."
+    },
+    {
+        "funName": ".pushStack()",
+        "funComment": "Add a collection of DOM elements onto the jQuery stack.",
+        "Tag": [
+            " Internals"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/pushStack/",
+        "subNote": ""
+    },
+    {
+        "funName": ".queue()",
+        "funComment": "Show or manipulate the queue of functions to be executed on the matched elements.",
+        "Tag": [
+            " Effects Custom",
+            " Data",
+            " Utilities"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/queue/",
+        "subNote": ""
+    },
+    {
+        "funName": ":radio Selector",
+        "funComment": "Selects all  elements of type radio.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/radio-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".ready()",
+        "funComment": "Specify a function to execute when the DOM is fully loaded.",
+        "Tag": [
+            " Events Document Loading"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/ready/",
+        "subNote": ""
+    },
+    {
+        "funName": ".remove()",
+        "funComment": "Remove the set of matched elements from the DOM.",
+        "Tag": [
+            " Manipulation DOM Removal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/remove/",
+        "subNote": ""
+    },
+    {
+        "funName": ".removeAttr()",
+        "funComment": "Remove an attribute from each element in the set of matched elements.",
+        "Tag": [
+            " Attributes",
+            " Manipulation General Attributes"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/removeAttr/",
+        "subNote": ""
+    },
+    {
+        "funName": ".removeClass()",
+        "funComment": "Remove a single class, multiple classes, or all classes from each element in the set of matched elements.",
+        "Tag": [
+            " Attributes",
+            " Manipulation Class Attribute",
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/removeClass/",
+        "subNote": ""
+    },
+    {
+        "funName": ".removeData()",
+        "funComment": "Remove a previously-stored piece of data.",
+        "Tag": [
+            " Data",
+            " Miscellaneous Data Storage"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/removeData/",
+        "subNote": ""
+    },
+    {
+        "funName": ".removeProp()",
+        "funComment": "Remove a property for the set of matched elements.",
+        "Tag": [
+            " Attributes",
+            " Manipulation General Attributes"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/removeProp/",
+        "subNote": ""
+    },
+    {
+        "funName": ".replaceAll()",
+        "funComment": "Replace each target element with the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Replacement"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/replaceAll/",
+        "subNote": ""
+    },
+    {
+        "funName": ".replaceWith()",
+        "funComment": "Replace each element in the set of matched elements with the provided new content and return the set of elements that was removed.",
+        "Tag": [
+            " Manipulation DOM Replacement"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/replaceWith/",
+        "subNote": ""
+    },
+    {
+        "funName": ":reset Selector",
+        "funComment": "Selects all elements of type reset.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/reset-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".resize()",
+        "funComment": "Bind an event handler to the \u201cresize\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Browser Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/resize/",
+        "subNote": ""
+    },
+    {
+        "funName": ":root Selector",
+        "funComment": "Selects the element that is the root of the document.",
+        "Tag": [
+            " Selectors Basic Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/root-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".scroll()",
+        "funComment": "Bind an event handler to the \u201cscroll\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Browser Events"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/scroll/",
+        "subNote": ""
+    },
+    {
+        "funName": ".scrollLeft()",
+        "funComment": "Get the current horizontal position of the scroll bar for the first element in the set of matched elements or set the horizontal position of the scroll bar for every matched element.",
+        "Tag": [
+            " CSS",
+            " Offset",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/scrollLeft/",
+        "subNote": "Note:.scrollLeft(), when called directly or animated as a property using .animate(), will not work if the element it is being applied to is hidden."
+    },
+    {
+        "funName": ".scrollTop()",
+        "funComment": "Get the current vertical position of the scroll bar for the first element in the set of matched elements or set the vertical position of the scroll bar for every matched element.",
+        "Tag": [
+            " CSS",
+            " Offset",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/scrollTop/",
+        "subNote": ""
+    },
+    {
+        "funName": ".select()",
+        "funComment": "Bind an event handler to the \u201cselect\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/select/",
+        "subNote": "The method for retrieving the current selected text differs from one browser to another. A number of jQuery plug-ins offer cross-platform solutions."
+    },
+    {
+        "funName": ":selected Selector",
+        "funComment": "Selects all elements that are selected.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/selected-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".selector",
+        "funComment": "A selector representing selector passed to jQuery(), if any, when creating the original set.",
+        "Tag": [
+            " Deprecated Deprecated 1.7",
+            " Internals",
+            " Properties Properties of jQuery Object Instances",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/selector/",
+        "subNote": "Note: This API has been removed in jQuery 3.0. The property was never a reliable indicator of the selector that could be used to obtain the set of elements currently contained in the jQuery set where it was a property, since subsequent traversal methods may have changed the set. Plugins that need to use a selector string within their plugin can require it as a parameter of the method. For example, a \"foo\" plugin could be written as $.fn.foo = function( selector, options ) { /* plugin code goes here */ };, and the person using the plugin would write $( \"div.bar\" ).foo( \"div.bar\", {dog: \"bark\"} ); with the \"div.bar\" selector repeated as the first argument of .foo()."
+    },
+    {
+        "funName": ".serialize()",
+        "funComment": "Encode a set of form elements as a string for submission.",
+        "Tag": [
+            " Forms",
+            " Ajax Helper Functions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/serialize/",
+        "subNote": ""
+    },
+    {
+        "funName": ".serializeArray()",
+        "funComment": "Encode a set of form elements as an array of names and values.",
+        "Tag": [
+            " Forms",
+            " Ajax Helper Functions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/serializeArray/",
+        "subNote": ""
+    },
+    {
+        "funName": ".show()",
+        "funComment": "Display the matched elements.",
+        "Tag": [
+            " Effects Basics"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/show/",
+        "subNote": "Note: This method may cause performance issues, especially when used on many elements. If you're encountering such issues, use performance testing tools to determine whether this method is causing them. Moreover, this method can cause problems with responsive layouts if the display value differs at different viewport sizes."
+    },
+    {
+        "funName": ".siblings()",
+        "funComment": "Get the siblings of each element in the set of matched elements, optionally filtered by a selector.",
+        "Tag": [
+            " Traversing Tree Traversal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/siblings/",
+        "subNote": ""
+    },
+    {
+        "funName": ".size()",
+        "funComment": "Return the number of elements in the jQuery object.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Miscellaneous DOM Element Methods",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/size/",
+        "subNote": "Note: This method has been removed in jQuery 3.0. Use the .length property instead."
+    },
+    {
+        "funName": ".slice()",
+        "funComment": "Reduce the set of matched elements to a subset specified by a range of indices.",
+        "Tag": [
+            " Traversing Filtering"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/slice/",
+        "subNote": ""
+    },
+    {
+        "funName": ".slideDown()",
+        "funComment": "Display the matched elements with a sliding motion.",
+        "Tag": [
+            " Effects Sliding"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/slideDown/",
+        "subNote": ""
+    },
+    {
+        "funName": ".slideToggle()",
+        "funComment": "Display or hide the matched elements with a sliding motion.",
+        "Tag": [
+            " Effects Sliding"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/slideToggle/",
+        "subNote": ""
+    },
+    {
+        "funName": ".slideUp()",
+        "funComment": "Hide the matched elements with a sliding motion.",
+        "Tag": [
+            " Effects Sliding"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/slideUp/",
+        "subNote": ""
+    },
+    {
+        "funName": ".stop()",
+        "funComment": "Stop the currently-running animation on the matched elements.",
+        "Tag": [
+            " Effects Custom"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/stop/",
+        "subNote": "Animations may be stopped globally by setting the property $.fx.off to true. When this is done, all animation methods will immediately set elements to their final state when called, rather than displaying an effect."
+    },
+    {
+        "funName": ".submit()",
+        "funComment": "Bind an event handler to the \u201csubmit\u201d JavaScript event, or trigger that event on an element.",
+        "Tag": [
+            " Events Form Events",
+            " Forms"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/submit/",
+        "subNote": "Depending on the browser, the Enter key may only cause a form submission if the form has exactly one text field, or only when there is a submit button present. The interface should not rely on a particular behavior for this key unless the issue is forced by observing the keypress event for presses of the Enter key."
+    },
+    {
+        "funName": ":submit Selector",
+        "funComment": "Selects all elements of type submit.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/submit-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ":target Selector",
+        "funComment": "Selects the target element indicated by the fragment identifier of the document\u2019s URI.",
+        "Tag": [
+            " Selectors Basic Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/target-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".text()",
+        "funComment": "Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Inside"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/text/",
+        "subNote": ""
+    },
+    {
+        "funName": ":text Selector",
+        "funComment": "Selects all input elements of type text.",
+        "Tag": [
+            " Selectors Form",
+            " Selectors jQuery Extensions"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/text-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".toArray()",
+        "funComment": "Retrieve all the elements contained in the jQuery set, as an array.",
+        "Tag": [
+            " Miscellaneous DOM Element Methods"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/toArray/",
+        "subNote": ""
+    },
+    {
+        "funName": ".toggle()",
+        "funComment": "Display or hide the matched elements.",
+        "Tag": [
+            " Effects Basics"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/toggle/",
+        "subNote": "Note: The event handling suite also has a method named .toggle(). Which one is fired depends on the set of arguments passed."
+    },
+    {
+        "funName": ".toggle()",
+        "funComment": "Bind two or more handlers to the matched elements, to be executed on alternate clicks.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Mouse Events",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/toggle-event/",
+        "subNote": "Note: This method signature was deprecated in jQuery 1.8 and removed in jQuery 1.9. jQuery also provides an animation method named .toggle() that toggles the visibility of elements. Whether the animation or the event method is fired depends on the set of arguments passed."
+    },
+    {
+        "funName": ".toggleClass()",
+        "funComment": "Add or remove one or more classes from each element in the set of matched elements, depending on either the class\u2019s presence or the value of the state argument.",
+        "Tag": [
+            " Attributes",
+            " Manipulation Class Attribute",
+            " CSS"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/toggleClass/",
+        "subNote": ""
+    },
+    {
+        "funName": ".trigger()",
+        "funComment": "Execute all handlers and behaviors attached to the matched elements for the given event type.",
+        "Tag": [
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/trigger/",
+        "subNote": ""
+    },
+    {
+        "funName": ".triggerHandler()",
+        "funComment": "Execute all handlers attached to an element for an event.",
+        "Tag": [
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/triggerHandler/",
+        "subNote": ""
+    },
+    {
+        "funName": ".unbind()",
+        "funComment": "Remove a previously-attached event handler from the elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/unbind/",
+        "subNote": "Note: Using a proxied function to unbind an event on an element will unbind all proxied functions on that element, as the same proxy function is used for all proxied events. To allow unbinding a specific event, use unique class names on the event (e.g. click.proxy1, click.proxy2) when attaching them."
+    },
+    {
+        "funName": ".undelegate()",
+        "funComment": "Remove a handler from the event for all elements which match the current selector, based upon a specific set of root elements.",
+        "Tag": [
+            " Deprecated Deprecated 3.0",
+            " Events Event Handler Attachment"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/undelegate/",
+        "subNote": ""
+    },
+    {
+        "funName": ".unload()",
+        "funComment": "Bind an event handler to the \u201cunload\u201d JavaScript event.",
+        "Tag": [
+            " Deprecated Deprecated 1.8",
+            " Events Document Loading",
+            " Removed"
+        ],
+        "isdeprecated": 1,
+        "webroot": "https://api.jquery.com/unload/",
+        "subNote": "Note: This API has been removed in jQuery 3.0; please use .on( \"unload\", handler ) instead of .unload( handler ) and .trigger( \"unload\" ) instead of .unload()."
+    },
+    {
+        "funName": ".unwrap()",
+        "funComment": "Remove the parents of the set of matched elements from the DOM, leaving the matched elements in their place.",
+        "Tag": [
+            " Manipulation DOM Insertion, Around",
+            " Manipulation DOM Removal"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/unwrap/",
+        "subNote": ""
+    },
+    {
+        "funName": ".val()",
+        "funComment": "Get the current value of the first element in the set of matched elements or set the value of every matched element.",
+        "Tag": [
+            " Attributes",
+            " Forms",
+            " Manipulation General Attributes"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/val/",
+        "subNote": "Note:  At present, using .val() on <textarea> elements strips carriage return characters from the browser-reported value. When this value is sent to the server via XHR, however, carriage returns are preserved (or added by browsers which do not include them in the raw value). A workaround for this issue can be achieved using a valHook as follows:"
+    },
+    {
+        "funName": ":visible Selector",
+        "funComment": "Selects all elements that are visible.",
+        "Tag": [
+            " Selectors jQuery Extensions",
+            " Selectors Visibility Filter"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/visible-selector/",
+        "subNote": ""
+    },
+    {
+        "funName": ".width()",
+        "funComment": "Get the current computed width for the first element in the set of matched elements or set the width of every matched element.",
+        "Tag": [
+            " CSS",
+            " Dimensions",
+            " Manipulation Style Properties"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/width/",
+        "subNote": "Note: Although style and script tags will report a value for .width() or height() when absolutely positioned and given display:block, it is strongly discouraged to call those methods on these tags. In addition to being a bad practice, the results may also prove unreliable."
+    },
+    {
+        "funName": ".wrap()",
+        "funComment": "Wrap an HTML structure around each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Around"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/wrap/",
+        "subNote": ""
+    },
+    {
+        "funName": ".wrapAll()",
+        "funComment": "Wrap an HTML structure around all elements in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Around"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/wrapAll/",
+        "subNote": ""
+    },
+    {
+        "funName": ".wrapInner()",
+        "funComment": "Wrap an HTML structure around the content of each element in the set of matched elements.",
+        "Tag": [
+            " Manipulation DOM Insertion, Around"
+        ],
+        "isdeprecated": 0,
+        "webroot": "https://api.jquery.com/wrapInner/",
+        "subNote": ""
+    }
+]
